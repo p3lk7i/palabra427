@@ -36,25 +36,24 @@ Each line has the format: [level:key]value
 ### 3.1 Describe car brands 
 ```
 [1:]Cars
-[2:Brand]Tesla
-[3:Model]Model S
-[4:Engine]Electric
-[4:Battery]100 kWh
-[4:Autopilot]Full Self-Driving
-[3:Model]Model 3
-[4:Engine]Electric
-[4:Battery]82 kWh
-[4:Autopilot]Partial
-
-[2:Brand]Toyota
-[3:Model]Corolla
-[4:Engine]Gasoline
-[4:Transmission]Automatic
-[4:Features]Lane Assist
-[3:Model]Prius
-[4:Engine]Hybrid
-[4:Battery]1.3 kWh
-[4:Features]Eco Mode
+    [2:Brand]Tesla
+        [3:Model]Model S
+            [4:Engine]Electric
+            [4:Battery]100 kWh
+            [4:Autopilot]Full Self-Driving
+        [3:Model]Model 3
+            [4:Engine]Electric
+            [4:Battery]82 kWh
+            [4:Autopilot]Partial
+    [2:Brand]Toyota
+        [3:Model]Corolla
+            [4:Engine]Gasoline
+            [4:Transmission]Automatic
+            [4:Features]Lane Assist
+        [3:Model]Prius
+            [4:Engine]Hybrid
+            [4:Battery]1.3 kWh
+            [4:Features]Eco Mode
 ```
 ### 3.3 Describe person 
 ```
