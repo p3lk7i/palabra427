@@ -2,7 +2,7 @@
 
 **Author:** [Pablo427](https://github.com/palabra)  
 **License:** Apache Version 2.0
-** Simplicitas praevalet
+
 ---
 
 ## 1. Introduction
@@ -113,5 +113,7 @@ Each line has the format: [level:key]value
 ## 5. GitHub-Friendly
 - With proper code blocks and indentation, your examples render beautifully on GitHub.  
 - Makes it perfect for specifications, demos, or structured examples.
+
+and because simplicitas praevalet ...
 
 EOF
