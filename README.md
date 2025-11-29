@@ -74,22 +74,6 @@ Each line has the format: [level:key]value
 [2:hobbies]Fishing
 [2:hobbies]Basketball
 ```
-### 3.4 Post request
-```
-[1:class]HTTPRequest
-[2:method]POST
-[2:url]https://api.example.com/users
-[2:headers]
-[3:Content-Type]application/json
-[3:Authorization]Bearer abc123token
-[2:body]
-[3:name]Jan Iksiński
-[3:email]jan.iksinski@example.com
-[3:job]Construction Worker
-[3:location]Sandomierz, Poland
-[2:timeout]30
-[2:retry]3
-```
 # Why Palabra (PLB) DDL is for you ?
 
 ## 1. Human-Readable
