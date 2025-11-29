@@ -67,9 +67,9 @@ Each line has the format: [level:key]value
 [2:job]Construction Worker
 [3:position]Site Worker
 [3:experience]12 years
-[3:skills]Masonry
-[3:skills]Carpentry
-[3:skills]Operating Heavy Machinery
+[3:skills]Masonry,Carpentry,Operating Heavy Machinery
+[3:skills]
+[3:skills]
 [3:certifications]OSHA Safety Training
 [2:contact]Phone
 [3:number]+1-555-123-4567
