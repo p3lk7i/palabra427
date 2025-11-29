@@ -1,4 +1,4 @@
-# Palabra DDL Language Specification
+# Palabra (PLB) DDL Language Specification
 
 **Author:** [Pablo427](https://github.com/palabra)  
 **License:** [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
@@ -92,7 +92,7 @@ Each line has the format: [level:key]value
 [2:timeout]30
 [2:retry]3
 ```
-# Why Palabra DDL is for you ?
+# Why Palabra (PLB) DDL is for you ?
 
 ## 1. Human-Readable
 - Instead of complex braces, commas, or indentation rules, you just use `[level:key]value`.  
