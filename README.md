@@ -74,6 +74,25 @@ Each line has the format: [level:key]value
 [2:hobbies]Fishing
 [2:hobbies]Basketball
 ```
+### 3.4 Prompt AI in structured manner 
+```
+[1:Task]Create a production-ready server configuration blueprint
+    [2:Target]Nginx + Certbot + Node.js app behind HTTPS
+    [2:OS]Ubuntu 24.04 LTS (or Debian 12)
+    [2:Domain]example.com (with www redirect)
+    [2:Security]A+ on SSL Labs, HSTS, basic DDoS hardening
+    [2:Extras]
+        [3:Feature]Automatic HTTPS with Let’s Encrypt (auto-renew)
+        [3:Feature]Brotli + Zstd compression
+        [3:Feature]HTTP/3 (QUIC) enabled
+        [3:Feature]Rate limiting (10 r/s burst 20)
+        [3:Feature]Cache static assets 30 days
+        [3:Feature]Separate error pages (403, 404, 500)
+        [3:Feature]Fail2ban rules for SSH + Nginx bad bots
+    [2:Output format]One single nginx.conf file + short setup script
+    [2:Style]Zero comments except section headers, must work copy-paste
+    [2:Bonus]Include a one-liner to test the whole config with nginx -t
+```
 # Why Palabra (PLB) DDL is for you ?
 
 ## 1. Human-Readable
