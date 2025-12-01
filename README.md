@@ -56,6 +56,13 @@ Each line has the format: [level:key]value
             [4:Battery]1.3 kWh
             [4:Features]Eco Mode
 ```
+## Ready-to-use parsers (zero dependencies)
+
+- Python → 47 lines → `palabra/py/parse.py`
+- JavaScript → 39 lines → `palabra/js/parse.js`
+
+Just copy the file and `parse_plb(your_text)` → proper tree.
+
 ### 3.3 Describe person 
 ```
 [1:class]Person
