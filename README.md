@@ -102,7 +102,12 @@ Just copy the file and `parse_plb(your_text)` → proper tree.
 ```
 # Palabra search
 
-[4:^ab.*ex$]^[0-9]+$ - it say search me for keys and values on level 4 in my doc etc.
+[4:^ab.*ex$]^[0-9]+$ // search for keys and values on level 4 in my doc etc.
+
+[Brand]Toyota[4:Battery].*]" // find Brand=Toyota and search on level 4 for Battery.
+
+This way we can nest queries and combine them with reg-ex. So palabra let to describe 
+the data and describe the search.
 
 # Why Palabra (PLB) DDL is for you ?
 
