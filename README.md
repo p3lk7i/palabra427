@@ -100,7 +100,7 @@ Just copy the file and `parse_plb(your_text)` → proper tree.
     [2:Style]Zero comments except section headers, must work copy-paste
     [2:Bonus]Include a one-liner to test the whole config with nginx -t
 ```
-# Palabra search power 
+# Palabra search
 
 [4:^ab.*ex$]^[0-9]+$ - it say search me for keys and values on level 4 in my doc etc.
 
