@@ -40,10 +40,6 @@ FORMAT (level=key1,key2,...,keyN])value
 (1:)Cars
   (2:Brand,Manufacutrer)Tesla
     (3:Model)Model S
-
-[1:]Cars
-    [2:Brand]Tesla
-        [3:Model]Model S
 ```
 for standard format you don't need FORMAT key word in your files.
 
