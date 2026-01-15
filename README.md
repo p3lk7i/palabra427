@@ -124,7 +124,9 @@ Just copy the file and `parse_plb(your_text)` → proper tree.
 ```
 # Palabra search
 
-[4:^ab.*ex$]^[0-9]+$ // search for keys and values on level 4 in my doc etc.
+For search we user Query Vector e.g : [4:CPU,RAM] - this search on level 4 for keys CPU & RAM 
+if you want search all levels : [*:CPI,RAM] search on all levels. You can use regular expessions too : 
+[*:\b(CPU|GPU)\b|RAM]
 
 [Brand]Toyota[4:Battery].*]" // find Brand=Toyota and search on level 4 for Battery.
 
