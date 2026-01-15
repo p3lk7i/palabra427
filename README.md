@@ -130,8 +130,26 @@ For search we user Query Vector e.g :
 ```
 if you want search all levels : 
 ```
-[*:CPI,RAM] search on all levels. You can use regular expessions too :
+[*:CPI,RAM] search on all levels keys. You can use regular expessions too :
 [*:\b(CPU|GPU)\b|RAM]
+
+you can search on values too :
+
+[1:CPU]\b(Intel|Nvidia)\b
+
+```
+If you add your search after document main text you create a FILTER : 
+```
+[1:Person]
+  [2:Name]John
+  [2:Surnam]Doe
+[1:Person]
+  [2:Name]Elaine
+  [2:Surname]Emerson
+
+[FILTER][2:Name]  - find all keys with Name on level 2
+[FILTER][*:Person] - find keys with Person on all lavels
+
 ```
 
 # Why Palabra (PLB) DDL is for you ?
