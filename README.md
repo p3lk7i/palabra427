@@ -35,7 +35,7 @@ Each line has the format: [level:key]value you can also use [level:key1|key2|...
 The format definition can be changed (grammar remapping). If you put first line as : (level=key1,key2,...,keyN])value format syntax changes :
 
 e.g file exerpt : 
-
+```
 FORMAT (level=key1,key2,...,keyN])value 
 (1:)Cars
   (2:Brand,Manufacutrer)Tesla
@@ -44,7 +44,7 @@ FORMAT (level=key1,key2,...,keyN])value
 [1:]Cars
     [2:Brand]Tesla
         [3:Model]Model S
-
+```
 for standard format you don't need FORMAT key word in your files.
 
 ## 3. Examples
