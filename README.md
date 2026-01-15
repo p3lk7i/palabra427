@@ -134,11 +134,6 @@ if you want search all levels :
 [*:\b(CPU|GPU)\b|RAM]
 ```
 
-[Brand]Toyota[4:Battery].*]" // find Brand=Toyota and search on level 4 for Battery.
-
-This way we can nest queries and combine them with reg-ex. So palabra let to describe 
-the data and describe the search.
-
 # Why Palabra (PLB) DDL is for you ?
 
 ## 1. Human-Readable
