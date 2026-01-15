@@ -8,7 +8,7 @@
 ## 1. Introduction
 
 Palabra DDL is a **hierarchical, level-based, schema-free data definition language**. It belongs to the same family as JSON and YAML.
-It is designed to represent tree-structured data in a **compact, human-readable, and machine-parseable format**.  
+It is designed to represent tree-structured data in a **compact, human-readable, and machine-parseable format**. Allows mini grammar remapping.
 
 
 Key features:
