@@ -22,7 +22,7 @@ Key features:
 
 ## 2. Syntax
 
-Each line has the format: [level:key]value
+Each line has the format: [level:key]value you can also use [level:key1|key2|...|keyN]value for many keys
 
 - `level` → Numeric depth (≥1)  
 - `key` → Optional identifier (can be empty)  
@@ -43,8 +43,8 @@ Each line has the format: [level:key]value
             [4:Battery]100 kWh
             [4:Autopilot]Full Self-Driving
         [3:Model]Model 3
-            [4:Engine]Electric
-            [4:Battery]82 kWh
+            [4:Engine|Motor]Electric
+            [4:Battery|Accumlator|Power]82 kWh
             [4:Autopilot]Partial
     [2:Brand]Toyota
         [3:Model]Corolla
